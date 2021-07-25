@@ -1,4 +1,4 @@
-package com.tech.assignment.adapter
+package com.tech.assignment.UI.adapter
 
 import android.content.Context
 import android.view.LayoutInflater

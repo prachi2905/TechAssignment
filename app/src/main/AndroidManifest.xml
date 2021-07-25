@@ -16,7 +16,7 @@
         android:hardwareAccelerated="false"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.TechAssignment">
-        <activity android:name=".MainActivity"
+        <activity android:name=".UI.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

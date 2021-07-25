@@ -1,11 +1,12 @@
-package com.tech.assignment
+package com.tech.assignment.UI.activity
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.tech.assignment.adapter.HomeScreenAdapter
+import com.tech.assignment.R
+import com.tech.assignment.UI.adapter.HomeScreenAdapter
 import com.tech.assignment.databinding.ActivityMainBinding
 import com.tech.assignment.localDb.PinCodeDao
 import com.tech.assignment.localDb.PinCodeDao.Companion.getLocalDbData
