@@ -24,3 +24,8 @@
 **Application class creation**
 * *for initiating the Realm File
 * *for realm migration, if its needed.
+
+**Funcionality 2**
+* Search View(UI) implemeted
+* Search Functionality Written by the use of RX Java(implementation is not done completely)
+
