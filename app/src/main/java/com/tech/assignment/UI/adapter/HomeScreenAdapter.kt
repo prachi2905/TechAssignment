@@ -25,7 +25,7 @@ class HomeScreenAdapter(val context: Context, val zipCodeModel: RealmResults<Zip
         @NonNull holder: HomeScreenViewHolder, i: Int
     ) {
         //setting the data on the UI field
-        holder.binding.textView.text = zipCodeModel.get(i)?.pinCode
+        holder.binding.textView.text = zipCodeModel.get(i)?.pinCodeStart+"-"+ zipCodeModel.get(i)?.pinCodeEnd+" "+ zipCodeModel.get(i)?.pinCodeLocation
     }
 
     override fun getItemCount() = zipCodeModel.size

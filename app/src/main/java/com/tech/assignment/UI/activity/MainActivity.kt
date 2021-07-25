@@ -51,18 +51,20 @@ class MainActivity : AppCompatActivity() {
         val bufferedReader = BufferedReader(inputreader);
         val csvParser = CSVParser(bufferedReader, CSVFormat.DEFAULT);
         for (csvRecord in csvParser) {
-            //need to show only pincode which is avaiable on number 3
-            val pinCode = csvRecord.get(3);
-            response = ZipCodeModel(pinCode)
+
+            //need to show  pincode which is avaiable on number 3
+            val pinCodeLocation = csvRecord.get(3);
+            val pinCodeStart = csvRecord.get(14);
+            val pinCodeEnd = csvRecord.get(15);
+            response = ZipCodeModel(pinCodeStart,pinCodeEnd,pinCodeLocation)
             pinCodeList.add(response)
 
             //save data in realm DB
             PinCodeDao.saveDataInLocalDb(pinCodeList)
-
-            //show data on list from DB
-            if (!(getLocalDbData()!!.size == 0)) {
-                getLocalDbData()?.let { setDataOnUI(it) }
-            }
+        }
+        //show data on list from DB
+        if (!(getLocalDbData()!!.size == 0)) {
+            getLocalDbData()?.let { setDataOnUI(it) }
         }
     }
 
