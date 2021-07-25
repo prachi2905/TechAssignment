@@ -1,0 +1,58 @@
+cod_distrito,cod_concelho,cod_localidade,nome_localidade,cod_arteria,tipo_arteria,prep1,titulo_arteria,prep2,nome_arteria,local_arteria,troco,porta,cliente,num_cod_postal,ext_cod_postal,desig_postal
+1,1,249,Alcafaz,,,,,,,,,,,3750,11,AGADÃO
+1,1,250,Caselho,,,,,,,,,,,3750,12,AGADÃO
+1,1,251,Corga da Serra,,,,,,,,,,,3750,13,AGADÃO
+1,1,252,Foz,,,,,,,,,,,3750,14,AGADÃO
+1,1,253,Guistola,,,,,,,,,,,3750,15,AGADÃO
+1,1,254,Guistolinha,,,,,,,,,,,3750,16,AGADÃO
+1,1,255,Lomba,,,,,,,,,,,3750,17,AGADÃO
+1,1,256,Povinha,,,,,,,,,,,3750,18,AGADÃO
+1,1,257,Vila Mendo,,,,,,,,,,,3750,19,AGADÃO
+1,1,258,Aguada de Baixo,,,,,,,,,,PC AGUADA DE BAIXO,3750,996,AGUADA DE BAIXO
+1,1,258,Aguada de Baixo,,,,,,,,,,,3750,31,AGUADA DE BAIXO
+1,1,260,Landiosa,,,,,,,,,,,3750,33,AGUADA DE BAIXO
+1,1,262,Passadouro,,,,,,,,,,,3750,35,AGUADA DE BAIXO
+1,1,263,Aguada de Cima,,,,,,,,,,PC AGUADA DE CIMA,3750,998,AGUADA DE CIMA
+1,1,263,Aguada de Cima,,,,,,,,,,,3750,41,AGUADA DE CIMA
+1,1,264,Aguadalte,,,,,,,,,,,3750,42,AGUADA DE CIMA
+1,1,265,Almas da Areosa,,,,,,,,,,,3750,43,AGUADA DE CIMA
+1,1,266,Bustelo,,,,,,,,,,,3750,44,AGUADA DE CIMA
+1,1,267,Cabeço Grande,,,,,,,,,,,3750,45,AGUADA DE CIMA
+1,1,268,Cadaval,,,,,,,,,,,3750,46,AGUADA DE CIMA
+1,1,269,Canavai,,,,,,,,,,,3750,47,AGUADA DE CIMA
+1,1,270,Carvalhitos,,,,,,,,,,,3750,48,AGUADA DE CIMA
+1,1,271,Engenho,,,,,,,,,,,3750,49,AGUADA DE CIMA
+1,1,272,Forcada,,,,,,,,,,,3750,50,AGUADA DE CIMA
+1,1,273,Formigueiro,,,,,,,,,,,3750,51,AGUADA DE CIMA
+1,1,274,Forno,,,,,,,,,,,3750,52,AGUADA DE CIMA
+1,1,275,Garrido ,,,,,,,,,,,3750,53,AGUADA DE CIMA
+1,1,276,Insuas,,,,,,,,,,,3750,54,AGUADA DE CIMA
+1,1,277,Miragaia,,,,,,,,,,,3750,55,AGUADA DE CIMA
+1,1,278,Pisão,,,,,,,,,,,3750,56,AGUADA DE CIMA
+1,1,279,Pousadouros,,,,,,,,,,,3750,57,AGUADA DE CIMA
+1,1,280,Póvoa de Baixo,,,,,,,,,,,3750,58,AGUADA DE CIMA
+1,1,281,Póvoa do Teso,,,,,,,,,,,3750,59,AGUADA DE CIMA
+1,1,282,Póvoa São Domingos,,,,,,,,,,,3750,60,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,15315100,Beco,das,,,Flores,,,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,15317100,Rua,da,,,Aveleira,,,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,15320100,Travessa,,Nossa Senhora,das,Preces,,,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,18348100,Rua,,,,Principal,,,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,19376100,Rua,,Nossa Senhora,das,Preces,,Impares de 59 a 141,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,19376100,Rua,,Nossa Senhora,das,Preces,,Pares de 126 a 192,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,19376100,Rua,,Nossa Senhora,das,Preces,,Pares de 14 a 56,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,19377100,Canto,,Nossa Senhora,das,Preces,,,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,23789100,Rua,das,,,Hortas,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,23790100,Rua,,,,Mina da Póvoa,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298740000,Rua,do,,,Viso,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298780000,Travessa,das,,,Flores,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298790000,Rua,das,,,Flores,,Impares de 45 a 461,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298790000,Rua,das,,,Flores,,Pares de 64 a 116,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,298800000,Rua,da,,,Escola,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298810000,Travessa,dos,,,Ribeiros,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298830000,Travessa,do,,,Baeta,,Impares de 11 a 43,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298830000,Travessa,do,,,Baeta,,Pares de 18 a 34,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,298850000,Rua,dos,,,Almeidas,,Impares de 253 a 455,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298850000,Rua,dos,,,Almeidas,,Pares de 184 a 462,,,3750,364,BELAZAIMA DO CHÃO
+1,1,283,Póvoa do Vale do Trigo,298860000,Rua,,,,Principal,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,298870000,Rua,das,,,Cavadas,,,,,3750,61,AGUADA DE CIMA
+1,1,283,Póvoa do Vale do Trigo,7864100,Rua,da,,,Fonte da Póvoa,,,,,3750,61,AGUADA DE CIMA
