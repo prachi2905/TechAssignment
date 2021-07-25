@@ -9,8 +9,12 @@ import com.tech.assignment.databinding.ListItemBinding
 import com.tech.assignment.model.ZipCodeModel
 import io.realm.RealmResults
 
-class HomeScreenAdapter(val context: Context, val zipCodeModel: RealmResults<ZipCodeModel>) :
+class HomeScreenAdapter(
+    val context: Context,
+    val zipCodeModel: RealmResults<ZipCodeModel>,
+) :
     RecyclerView.Adapter<HomeScreenAdapter.HomeScreenViewHolder>() {
+
     override fun onCreateViewHolder(
         viewGroup: ViewGroup, i: Int
     ): HomeScreenViewHolder {
@@ -25,11 +29,12 @@ class HomeScreenAdapter(val context: Context, val zipCodeModel: RealmResults<Zip
         @NonNull holder: HomeScreenViewHolder, i: Int
     ) {
         //setting the data on the UI field
-        holder.binding.textView.text = zipCodeModel.get(i)?.pinCodeStart+"-"+ zipCodeModel.get(i)?.pinCodeEnd+" "+ zipCodeModel.get(i)?.pinCodeLocation
+        holder.binding.textView.text = zipCodeModel.get(i)?.pinCodeStart+"-"+ zipCodeModel.get(i)?.pinCodeLocation
     }
 
     override fun getItemCount() = zipCodeModel.size
 
     class HomeScreenViewHolder(val binding: ListItemBinding) :
         RecyclerView.ViewHolder(binding.root)
+
 }

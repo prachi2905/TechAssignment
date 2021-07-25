@@ -2,6 +2,7 @@ package com.tech.assignment.UI.activity
 
 import android.os.Bundle
 import android.view.View
+import android.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,6 +12,8 @@ import com.tech.assignment.databinding.ActivityMainBinding
 import com.tech.assignment.localDb.PinCodeDao
 import com.tech.assignment.localDb.PinCodeDao.Companion.getLocalDbData
 import com.tech.assignment.model.ZipCodeModel
+import io.reactivex.Observable
+import io.reactivex.ObservableOnSubscribe
 import io.realm.RealmResults
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVParser
@@ -18,6 +21,7 @@ import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.util.*
+import java.util.concurrent.TimeUnit
 
 
 class MainActivity : AppCompatActivity() {
@@ -43,6 +47,7 @@ class MainActivity : AppCompatActivity() {
             //read the  csv file if data is not avaiable in local DB(first time app launch)
             readCSVFile()
         }
+        setUpSearchObservable()
     }
 
     fun readCSVFile() {
@@ -82,4 +87,30 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.adapter = userDataAdapter
     }
 
+    //search implementation
+    private fun setUpSearchObservable() {
+        Observable
+            .create(ObservableOnSubscribe<String> { subscriber ->
+                binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+                    override fun onQueryTextChange(newText: String?): Boolean {
+                        subscriber.onNext(newText!!)
+                        return false
+                    }
+
+                    override fun onQueryTextSubmit(query: String?): Boolean {
+                        subscriber.onNext(query!!)
+                        return false
+                    }
+                })
+            })
+            .map { text -> text.toLowerCase().trim() }
+            .debounce(250, TimeUnit.MILLISECONDS)
+            .distinct()
+            .filter { text -> text.isNotBlank() }
+            .subscribe { text ->
+                //Log.d(TAG, "subscriber: $text")
+                //search implementaion
+
+            }
+    }
 }
